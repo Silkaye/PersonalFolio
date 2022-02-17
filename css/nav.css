@@ -35,6 +35,34 @@ nav
     border-bottom: 3px solid var(--primary);
 }
 
+section.banner
+{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-image: url(/images/Code\ background.png);
+    background-position: top left;
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+section.banner::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: var(--primary);
+    opacity: 0.2;
+}
+
 h1
 {
     color: white;

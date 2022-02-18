@@ -1,0 +1,60 @@
+section.banner
+{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    background-image: url(/images/Code\ background.png);
+    background-position: top left;
+    background-size: cover;
+}
+
+section.banner::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: var(--primary);
+    opacity: 0.2;
+}
+
+section .main-container
+{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+section .main-container h2
+{
+    font-size: 72px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 5px 2px 0px black;
+    margin-bottom: 20px;
+}
+
+section .main-container p
+{
+    font-size: 40px;
+    line-height: 45px;
+    position: relative;
+    z-index: 1; 
+    text-shadow: 5px 2px 0px black;
+}
+
+section .main-container p span
+{
+    color: violet;
+}

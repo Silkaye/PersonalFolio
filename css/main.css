@@ -10,6 +10,7 @@ section.banner
     background-image: url(/images/Code\ background.png);
     background-position: top left;
     background-size: cover;
+    border-bottom: 3px solid var(--primary);
 }
 
 section.banner::after
@@ -57,4 +58,13 @@ section .main-container p
 section .main-container p span
 {
     color: violet;
+    transition: 0.4s;
+}
+
+section .main-container p span:hover
+{
+    font-size: 60px;
+    color: violet;
+    transition: 0.4s;
+    cursor: pointer;
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+    <script src="https://kit.fontawesome.com/56c3e4e1e0.js" crossorigin="anonymous"></script>
+
+    <title>Jarrod Silk</title>
+</head>
+
+<body>
+    
+    <nav>
+        <div class="container">
+            <h1>Jarrod Silk</h1>
+            
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#" class="is-active">Contact</a>
+            </div>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <nav class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#" class="is-active">Contact</a>
+    </nav>
+
+    <main>
+    <div class="container1">
+        <form action="action_page.php">
+      
+          <label for="name">Your Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="bname">Business Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your business name..">
+      
+          <label for="email">Email Address:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+      
+          <label for="subject">Subject:</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <div class="buttonspacer">
+            <button class="button" type="submit" >Contact Me</button>
+        </div>
+            
+        </form>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

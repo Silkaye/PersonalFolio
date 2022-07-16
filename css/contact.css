@@ -20,7 +20,7 @@ textarea
 /* Add a background color and some padding around the form */
 .container1 
 {
-    margin-top: 150px;
+    margin-top: 110px;
     border-radius: 5px;
     padding: 20px;
     justify-content: center;
@@ -28,6 +28,13 @@ textarea
     display: flex;
     background-position: top left;
     background-size: cover;
+}
+
+.container1 h3
+{
+  font-size: 60px;
+  margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .button
